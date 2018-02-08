@@ -1,5 +1,5 @@
-# beginner-js-projects
-Beginner Web Apps Built with Vanilla JavaScript
+# Beginner Programming Ideas
+## Project Ideas for Beginner to Intermediate Programmers
 
 - [ ] [Hangman Game]()
 - [ ] [Tic-tac-toe game]()
@@ -8,3 +8,14 @@ Beginner Web Apps Built with Vanilla JavaScript
 - [ ] [Pomodoro Clock]()
 - [ ] [Simple Calculator App]()
 - [ ] [Simple Poker Game]()
+- [ ] Stock trading simulator: users pick a stock or mutual fund, to "buy" and watch its performance (recommend using [IEX API](https://iextrading.com/developer/docs/)
+- [ ] Bitcoin game: "buy" Bitcoin and watch its performance over time
+- [ ] Choose Your Own Advanture story game
+- [ ] Checkers Game
+- [ ] Chess Game
+- [ ] Simon Game
+- [ ] Connect Four Game
+- [ ] Scrabble Clone
+- [ ] Blackjack Game
+- [ ] Twitter Clone
+- [X] Rock-Paper-Scissors Game
