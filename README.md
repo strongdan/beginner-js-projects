@@ -1,6 +1,8 @@
 # Beginner Programming Ideas
 ## Project Ideas for Beginner to Intermediate Programmers
 
+With sample code provided in .js files
+
 - [ ] [Hangman Game]()
 - [ ] [Tic-tac-toe game]()
 - [ ] [Mad Libs]()
