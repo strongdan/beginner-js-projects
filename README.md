@@ -21,3 +21,4 @@ With sample code provided in .js files
 - [ ] Blackjack Game
 - [ ] Twitter Clone
 - [X] Rock-Paper-Scissors Game
+- [ ] Magic Eight Ball
