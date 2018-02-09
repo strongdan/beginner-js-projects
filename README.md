@@ -22,3 +22,4 @@ With sample code provided in .js files
 - [ ] Twitter Clone
 - [X] Rock-Paper-Scissors Game
 - [ ] Magic Eight Ball
+- [X] Random Quote Generator (credit: FreeCodeCamp)
