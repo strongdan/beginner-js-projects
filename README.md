@@ -23,5 +23,5 @@ With sample code provided in .js files
 - [X] Rock-Paper-Scissors Game
 - [ ] Magic Eight Ball
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
-- [ ] Analog Clock
+- [ ] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [ ] Typing Speed Tester
