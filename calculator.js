@@ -29,16 +29,20 @@ const getUserInput = () => {
 
 const calculate = () => {
     let values = getUserInput();
-    let num1 = values[0];
-    let operator = values[1];
-    let num2 = values[2];
+    let num1 = values[0].trim();
+    let operator = values[1].trim();
+    let num2 = values[2].trim();
     if (operator === '+') {
+      alert(`Your answer is ${add(num1, num2)}`);
       return add(num1, num2);  
     } else if (operator === '-') {
+      alert(`Your answer is ${subtract(num1, num2)}`);
       return subtract(num1, num2);  
     } else if (operator === '*') {
+      alert(`Your answer is ${multiply(num1, num2)}`);
       return multiply(num1, num2);  
     } else if (operator === '/') {
+      alert(`Your answer is ${divide(num1, num2)}`);
       return divide(num1, num2); 
     } else {
       console.log('Please enter a valid operator'); 
