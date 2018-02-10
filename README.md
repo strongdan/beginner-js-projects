@@ -24,4 +24,4 @@ With sample code provided in .js files
 - [ ] Magic Eight Ball
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
-- [ ] Typing Speed Tester
+- [X] [Typing Speed Tester](https://github.com/strongdan/js-typing-speed-test/)
