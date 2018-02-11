@@ -25,3 +25,9 @@ With sample code provided in .js files
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
+
+Object-oriented Beginner JS Projects
+- [ ] Bank account
+- [ ] OO Tic-Tac-Toe
+- [ ] OO Checkers
+- [ ] OO Chess
