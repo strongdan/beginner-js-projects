@@ -27,8 +27,9 @@ const dealCards = () => {
   while (dealerCards.length <= 5) {
     randomSuite = cards[randNum(0,5)];
     randomCard = cards[randomSuite][randNum(0, 14)]
-    if (!)
-    playerCards.push(randomCard)
+    if (!playerCards.includes(randomCard)) {
+      playerCards.push(randomCard);  
+    }
   }
   
 }
