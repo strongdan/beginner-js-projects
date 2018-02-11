@@ -14,8 +14,13 @@ const cards = {'two' : 2,
                'ace' : [1, 11] }
 
 const randomCard = (cards) => {
+  // random value between 1 and 13 (size of object)
+  let randNum = Math.floor(Math.random() * 14)
   // returns random element from cards as an array
-  let card1 = Math.floor(Math.random())
+  if (Object.keys(cards)[randNum] === 'ace') {
+    return Object.keys(cards)[randNum][Math.floor(Math.random())];
+  }
+  return Object.keys(cards)[randNum];
 }
 
 const initialDeal = () => {
@@ -28,19 +33,18 @@ const initialDeal = () => {
 
 const dealCard = () => {
   // if user requests additional card, card is drawn and score is incremented
-  let card = randomCard(cards);
+  let newCard = randomCard(cards);
   // returns card and value
+  return { newCard }
 }
 
 const playGame = () => {
-  firstCards = initialDeal(cards);
-  currentScore += firstCards[0].val + firstCards[1].val;
-  console.log(`Your first cards are: ${firstCards[0]} and ${firstCards[1]});
-  console.log(`Your score is ${currentScore});
   console.log('Welcome to blackjack!');
-  cards = initialDeal();
-  console.log();
-  
+  firstCards = initialDeal();
+  currentScore += firstCards[card1].val + firstCards[card2].val;
+  console.log(`Your first cards are: ${firstCards[card1]} and ${firstCards[card2]});
+  console.log(`Your score is ${currentScore});
+  dealCard();
 }
 
 
