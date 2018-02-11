@@ -1,7 +1,7 @@
 # Beginner Programming Ideas
 ## Project Ideas for Beginner to Intermediate Programmers
 
-With sample code provided in .js files
+### Simple projects with sample code provided in .js files
 
 - [ ] Hangman Game
 - [ ] Tic-tac-toe game
@@ -27,7 +27,7 @@ With sample code provided in .js files
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 
-Object-oriented Beginner JS Projects
+### Object-oriented beginner JS projects
 - [ ] Bank account
 - [ ] OO Tic-Tac-Toe
 - [ ] OO Checkers
