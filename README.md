@@ -2,7 +2,6 @@
 ## Project Ideas for Beginner to Intermediate Programmers
 
 ### Simple projects with sample code provided in .js files
-
 - [ ] Hangman Game
 - [ ] Tic-tac-toe game
 - [ ] Mad Libs
@@ -32,3 +31,14 @@
 - [ ] OO Tic-Tac-Toe
 - [ ] OO Checkers
 - [ ] OO Chess
+
+### Basic CRUD Apps Built Using JavaScript
+- [ ] To-do List
+- [ ] Twitter Clone
+- [ ] Ecommerce Store
+- [ ] Meme Generator
+- [ ] Hangman Game
+- [ ] Movie Review Apps
+- [ ] Note Taking App
+- [ ] Mad Libs app
+- [ ] Music Library
