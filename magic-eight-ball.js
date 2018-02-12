@@ -5,7 +5,7 @@ let eightBall = '';
 
 userName ? console.log(`Hello, ${userName}`) : console.log('Hello!');
 
-switch(randomNumberr) {
+switch(randomNumber) {
   case 0:
     eightBall = 'It is certain';
     break;
