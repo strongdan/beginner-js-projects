@@ -49,28 +49,30 @@ const getNewWord = () => {
   return hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
 }
 
-const guessLetter = () => {
-  // allows user to guess letter and returns true or false  
-}
-
-const checkLetter = (letter) => {
-  // checks if guessed letter is in word
-  // returns true or false
+const guessLetter = (word) => {
+  // allows user to guess letter and returns true or false based on current word 
+  let letter = prompt('Please guess a letter.');
+  return word.includes(letter);
 }
 
 const printHangman = () => {
-  // print current hangman array
+  // print playHangman array
+  console.log(playHangman);
 }
 
 const printBlankWord = (word, guessLetter = '') => {
   // print blanks for current word, filling in correctly guessed letters
-  word = word
+  word = word.split('');
+  for (let i = 0; i < word.length; i++) {
+    word[i] = '_';  
+  }
+  word = word.join(' ');
   if (guessLetter()) {
     // if letter is correct, fill in blanks 
   }
 }
 
-const drawHangman = () => {
+const addToHangman = () => {
   // add new row to hangman 
 }
 
@@ -95,7 +97,7 @@ const playGame = () => {
   while (!wonGame()) {
     printHangman();
     printBlankWord(word);
-    guessLetter();
+    guessLetter(); // users get seven guesses
     if (!checkLetter()) {
       drawHangman();  
       if (lostGame()) {
