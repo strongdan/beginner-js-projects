@@ -1,6 +1,6 @@
 let userName = prompt('Please enter your name', '');
 let userQuestion = prompt('Please enter your question:', '');
-let randomNumber = Math.floor(Math.random() + 8);
+let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
 
 userName ? console.log(`Hello, ${userName}`) : console.log('Hello!');
