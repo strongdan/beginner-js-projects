@@ -11,13 +11,22 @@ let userTurn = 1; // users take turns => 1 = user1, 2 = user2
 
 let shipPositions = {}; // tracks which squares have a ship on them, and which user they belong to
 
-const setGrid = (grid, rows, columns) => {
+const setGrid = (user) => {
   // creates space for ships based on user's preference, not more than 10 x 10 and not less than 5 x 5
+  let dimensions = prompt('Please enter the number of rows and columns between 5 and 10');
   // updates and returns grid variable
+  if (user === 1) {
+    grid1.push([ '' * dimensions ]);
+    return grid1; 
+  } else {
+    grid2.push([ '' * dimensions ]);
+    return grid2; 
+  }
 }
 
-const showGrid = (shipPositions, grid) => {
+const showGrid = (user, grid) => {
   // print grid with ships to console 
+  console.log(`${grid}user`);
 }
 
 const shipsRemaining = () => {
@@ -39,7 +48,7 @@ const hitOrNot = () => {
 }
 
 const sunkShip = () => {
-  // checks whether entire ship has been hit and alerts user  
+  // checks whether entire ship has been destroyed and alerts user  
 }
 
 const gameWon = () => {
