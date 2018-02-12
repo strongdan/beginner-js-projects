@@ -16,7 +16,11 @@ const setGrid = (user) => {
   let dimensions = prompt('Please enter the number of rows and columns between 5 and 10');
   // updates and returns grid variable
   if (user === 1) {
-    grid1.push([ '' * dimensions ]);
+    let newArr = [];
+    for (let i = 0; i < dimensions; i++) {
+      newArr.push();
+      grid1.push([ '' * dimensions ]); 
+    }
     return grid1; 
   } else {
     grid2.push([ '' * dimensions ]);
