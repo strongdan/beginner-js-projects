@@ -1,6 +1,5 @@
 const pieces = { ['QR1', 'QN1', '],
                  [] };
-
 let board = [ ['', '', '', '', '', '', '', ''],
               ['', '', '', '', '', '', '', ''],
               ['', '', '', '', '', '', '', ''],
@@ -9,7 +8,6 @@ let board = [ ['', '', '', '', '', '', '', ''],
               ['', '', '', '', '', '', '', ''],
               ['', '', '', '', '', '', '', ''],
               ['', '', '', '', '', '', '', ''] ];
-
 const setupBoard = () => {
   // set pawns on both sides of board, with white on the bottom
   for (let i = 0; i < board[1].length; i++) {
@@ -35,51 +33,39 @@ const setupBoard = () => {
   board[7][3] = 'WQ' // white queen
   board[7][4] = 'WK' // white king
 }
-
 let blackPieces = [];
 let whitePieces = [];
-
 const pawnMoves = () => {
   // defines valid pawn movement within the confines of the board array
   // includes en passant
 }
-
 const rookMoves = () => {
   // defines rook movement within the confines of the board array  
 }
-
 const knightMoves = () => {
   // defines valid knight movement within the confines of the board array  
 }
-
 const bishopMoves = () => {
   // defines valid bishop movement within the confines of the board array  
 }
-
 const queenMoves = () => {
   // defines valid queen movement within the confines of the board array  
 }
-
 const kingMoves = () => {
   // defines valid king movement within the confines of the board array  
 }
-
 const castling = () => {
   // establishes valid rules for castling 
 }
-
 const squareTaken = () => {
   // checks whether a square is occupied and returns true or false 
 }
-
 const checkOrCheckmate = () => {
   // check if king is in check or checkmate 
 }
-
 const playGame = () => {
   // starts game and plays through until a stalemate or win
   setupBoard();
   blackPieces.push();
   whitePieces.push();
 }
-
