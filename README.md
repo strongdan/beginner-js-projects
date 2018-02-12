@@ -20,7 +20,7 @@
 - [ ] Blackjack Game
 - [ ] Twitter Clone
 - [X] Rock-Paper-Scissors Game
-- [ ] Magic Eight Ball
+- [X] Magic Eight Ball
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
 - [ ] Digital Clock
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
