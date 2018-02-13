@@ -18,7 +18,7 @@ const getComputerChoice = () => {
   }
 }
 
-const determineWinnter = (userChoice, computerChoice) => {
+const determineWinner = (userChoice, computerChoice) => {
   if (userChoice === 'bomb') {
     return `User wins!`; // secret "cheat code" allows user to always win
   }
