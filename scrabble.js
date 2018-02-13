@@ -7,6 +7,11 @@ const letterValues = {  'A' : 1, 'E' : 1, 'I' : 1, 'O' : 1, 'U' : 1, 'L' : 1, 'N
                         'Q' : 10, 'Z' : 10,
                         'Blank' : 0 };
 
+const specialSquares = {  '2L' : ,
+                          '3L' : [],
+                          '2W' : [],
+                          '3W' : [[0,0],[0,7],[0,14],[7,0],[7,7],[7,14],[0,14],[7,14],[14,14]] };
+
 Array.matrix = function(numrows, numcols, initial){
    let arr = [];
    for (var i = 0; i < numrows; ++i){
