@@ -49,11 +49,20 @@ const printBoard = () => {
 
 const whoStarts = () => {
   // randomly chooses starting player  
-  
+  return Math.floor(Math.random() * 2);
+}
+
+const switchUser = () => {
+  // changes user between turns 
+}
+
+const userPass = () => {
+  // allows user to pass, missing one turn 
 }
 
 const dealLetters = () => {
   // randomly deals five letter from letters array to each player (if available) 
+  // returns object with five letters for each player
 }
 
 const printLetters = (user) => {
@@ -71,19 +80,24 @@ const playLetters = (user, word, location) => {
   if (specialSquare) {
     // calculate score based on special squares  
   }
+  validWord(); // checks whether word is in dictionary
 }
 
 const validWord = () => {
   // checks words against Oxford Dictionary API - https://www.npmjs.com/package/oxford-dictionary-api 
+  // returns true for valid word, false otherwise
 }
 
 const startGame = () => {
-  remainingLetters = startingLetters; // 
+  remainingLetters = startingLetters; 
   let playingBoard = originalBoard;
   dealLetters();
   printBoard();
   printLetters(user);
   while (lettersRemain()) {   
     playLetters(user);
+    if (!userPass()) {
+        switchUser();
+    }
   }
 }
