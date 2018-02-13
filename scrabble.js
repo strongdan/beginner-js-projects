@@ -19,8 +19,12 @@ Array.matrix = function(numrows, numcols, initial){
     return arr;
 }
 
+const specialSquares = () => {
+  // creates locations for double letter, triple letter, double word, and triple word scores   
+}
+
 let originalBoard = Array.matrix(15,15,0);
-let playingBoard = originalBoard;
+let playingBoard;
 
 const startingLetters = { 'Blank' : 2,
                           'E' : 12,
@@ -39,19 +43,34 @@ let remainingLetters;
 let currentScore = { 'user1' : 0,
                      'user2' : 0 };
  
+const printBoard = () => {
+  // prints current board to console  
+}
+
+const whoStarts = () => {
+  // randomly chooses starting player  
+  
+}
 
 const dealLetters = () => {
-  // deals five letter from letters array to each player (if available) 
+  // randomly deals five letter from letters array to each player (if available) 
+}
+
+const printLetters = (user) => {
+  // prints current user's letters 
 }
 
 const lettersRemain = () => {
   // returns true if letters remain in remainingLetters, false otherwise 
 }
 
-const playLetters = (user) => {
+const playLetters = (user, word, location) => {
   // allows player to play letters 
   // blank tiles are treated as wildcards
   // increments user score
+  if (specialSquare) {
+    // calculate score based on special squares  
+  }
 }
 
 const validWord = () => {
@@ -59,8 +78,11 @@ const validWord = () => {
 }
 
 const startGame = () => {
-  remainingLetters = startingLetters;
+  remainingLetters = startingLetters; // 
+  let playingBoard = originalBoard;
   dealLetters();
+  printBoard();
+  printLetters(user);
   while (lettersRemain()) {   
     playLetters(user);
   }
