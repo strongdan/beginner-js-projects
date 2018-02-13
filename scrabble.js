@@ -86,6 +86,7 @@ const playLetters = (user, word, location) => {
     // calculate score based on special squares  
   }
   validWord(); // checks whether word is in dictionary
+  // removes played letters from remainingLetters object
 }
 
 const validWord = () => {
