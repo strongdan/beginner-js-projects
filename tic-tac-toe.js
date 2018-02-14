@@ -17,8 +17,7 @@ const printBoardPositions = () => {
  console.log(board);
 }
 
-const placeMarker = (marker, position) => {
-  switchPlayer();
+const placeMarker = (playerMarker) => {
   let position = prompt('Please enter the position you would like to place your marker, 1-9');
   // adds X or O to board at specified location  
   for (let i = 0; i < board.length; i++) {
@@ -48,7 +47,7 @@ const playGame = () => {
   currentPlayer = startPlayer;
   while (!gameWon()) {
     printBoardPositions();
-    placeMarker();
+    placeMarker(currentPlayer);
     switchPlayer();         
   }
   console.log(`Player ${currentPlayer} won!);
