@@ -26,7 +26,7 @@
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 - [ ] Breakout Game (based on [MDN tutorial](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) - code available on [Github](https://github.com/end3r/Gamedev-Canvas-workshop))
-- [ ] Mario 3 Memory Game (credit: @taniarascia)
+- [ ] Mario 3 Memory Game (credit: [@taniarascia](https://github.com/taniarascia))
 
 ### Object-oriented beginner JS projects
 - [ ] Bank account
