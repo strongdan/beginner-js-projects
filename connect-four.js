@@ -49,7 +49,7 @@ const wonGame = () => {
 
 const playGame = () => {
   // start game and play through
-  startGame();
+  newGame();
   console.log(`Player ${currentPlayer}, it\'s your turn.`);
   printBoard();
   let positionX = prompt('Please enter an x coordinate to place your token');
