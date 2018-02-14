@@ -1,6 +1,6 @@
-const notes = { 'E4' : [329.63, 'blue'] // E-note (blue, lower right);
-                'C#4' : [277.18, 'yellow'] // C♯-note (yellow, lower left);
-                'A3' : [220.00, 'red'] // A-note (red, upper right).
+const notes = { 'E4' : [329.63, 'blue'] // E-note (blue, lower right)
+                'C#4' : [277.18, 'yellow'] // C♯-note (yellow, lower left)
+                'A3' : [220.00, 'red'] // A-note (red, upper right)
                 'E3' : [164.81, 'green'] // E-note (green, upper left, an octave lower than blue) 
               }
 
@@ -70,9 +70,13 @@ const userGuess = () => {
 
 const playGame = (level=1) => {
   // starts and plays game
-  
   if (userGuess()) {
-    level += 1;  
+    level += 1; 
+    if (level > 10) {
+      console.log('You won!');
+      playGame();
+    }
+    playGame(level);
   } else {
     playGame(); 
   }
