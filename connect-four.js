@@ -7,10 +7,10 @@ let board = [ [' ', ' ', ' ', ' ', ' ', ' '],
               [' ', ' ', ' ', ' ', ' ', ' '],
               [' ', ' ', ' ', ' ', ' ', ' '] ];
 
-let startPlayer = Math.floor(Math.random() * 3) + 1; // player 1 or 2
-let currentPlayer = startPlayer;
-
 const newGame = () => {
+  // initiate new players for game
+  let startPlayer = Math.floor(Math.random() * 3) + 1; // player 1 or 2
+  let currentPlayer = startPlayer;
   // clear board for a new game
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
@@ -49,6 +49,7 @@ const wonGame = () => {
 
 const playGame = () => {
   // start game and play through
+  startGame();
   console.log(`Player ${currentPlayer}, it\'s your turn.`);
   printBoard();
   let positionX = prompt('Please enter an x coordinate to place your token');
