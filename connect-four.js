@@ -7,9 +7,10 @@ let board = [ [' ', ' ', ' ', ' ', ' ', ' '],
               [' ', ' ', ' ', ' ', ' ', ' '],
               [' ', ' ', ' ', ' ', ' ', ' '] ];
 
+let startPlayer = Math.floor(Math.random() * 3) + 1; // player 1 or 2
+
 const newGame = () => {
   // initiate new players for game
-  let startPlayer = Math.floor(Math.random() * 3) + 1; // player 1 or 2
   let currentPlayer = startPlayer;
   // clear board for a new game
   for (let i = 0; i < board.length; i++) {
