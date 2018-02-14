@@ -17,13 +17,19 @@ const printBoardPositions = () => {
  console.log(board);
 }
 
+const markerExists = () => {
+  // checks to see if a marker has already been placed 
+}
+
 const placeMarker = (playerMarker) => {
   let position = prompt('Please enter the position you would like to place your marker, 1-9');
   // adds X or O to board at specified location  
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
-        if (board[i][j] = position) {
+        if (board[i][j] === position && !markerExists()) {
           currentPlayer = board[i][j];  
+        } else {
+          placeMarker(); 
         }
     }
   }
@@ -38,7 +44,7 @@ const switchPlayer = () => {
 }
 
 const gameWon = () => {
-  // checks to see if a player has won  
+  // checks to see if any markers span three consecutive cells  
   // returns true if won, false otherwise
 }
 
