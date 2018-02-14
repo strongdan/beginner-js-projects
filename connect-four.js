@@ -21,9 +21,10 @@ const newGame = () => {
 
 const printBoard = () => {
   // prints out current board 
-  let yCoord = 8;
+  let yCoord = 7;
   for (let i = 0; i < board.length; i++) {
-    console.log(`${yCoord} - ${i}`); 
+    console.log(`${yCoord} - \t${board[i]}`);
+    yCoord -= 1;
   } 
   console.log(['A', 'B', 'C', 'D', 'E', 'F', 'G']);
 }
@@ -50,9 +51,10 @@ const playGame = () => {
   // start game and play through
   console.log(`Player ${currentPlayer}, it\'s your turn.`);
   printBoard();
-  let position = prompt('Please enter x, y coordinates to place your token');
+  let positionX = prompt('Please enter an x coordinate to place your token');
+  let positionY = prompt('Please enter a y coordinate to place your token');
   if (!tokenExists()) {
-    playToken(x, y, token) 
+    playToken(positionX, positionY, currentPlayer) 
   }
   if (wonGame()) {
     console.log(`Player ${currentPlayer} won!`);
