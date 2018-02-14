@@ -47,7 +47,33 @@ const tokenExists = (x, y) => {
 }
 
 const wonGame = () => {
-  // checks for four-in-a-row vertically, horizontally and diagonally 
+  let player1 = 0;
+  let player2 = 0;
+  // checks for four-in-a-row vertically
+  
+  // checks for four-in-a-row horizontally 
+  for (let j = 0; j < board.length; j++) {
+    for (let k = 0; k < board[j].length; k++) {
+    if (el === 1) {
+      player1 += 1;
+    } else if (el === 2) {
+      player2 += 1; 
+    }
+   }
+  }
+  
+  // checks for four-in-a-row diagonally 
+  
+  // returns true for won game, false otherwise
+  if (player1 === 4) {
+    console.log('Player 1 won!');
+    return true; 
+  } else if (player2 === 4) {
+    console.log('Player 2 won!');
+    return true; 
+  } else {
+    return false; 
+  }
 }
 
 const playGame = () => {
