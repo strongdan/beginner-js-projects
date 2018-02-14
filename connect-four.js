@@ -32,13 +32,13 @@ const printBoard = () => {
   console.log(['A', 'B', 'C', 'D', 'E', 'F', 'G']);
 }
 
-const playToken = (x, y, token) => {
-  // player inserts player token on board at specified x, y coordinates
-  board[y][x] = token;
+const playToken = (column, token) => {
+  // player inserts player token on board at specified column, A-G
+  // if token exists in column, new token is inserted at one index less
 }
 
 const tokenExists = (x, y) => {
-  // checks to see if token is in specified location 
+  // checks to see if token is in specified column
   if (board[y][x] !== '') {
     return true;  
   } else {
