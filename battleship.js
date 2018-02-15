@@ -110,6 +110,7 @@ const playGame = () => {
     user = userTurn(user);
   }
   gameWon();
+  playGame();
 }
 
 playGame();
