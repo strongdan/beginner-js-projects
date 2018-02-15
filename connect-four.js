@@ -11,9 +11,16 @@ const startPlayer = () => {
   return Math.floor(Math.random() * 2) + 1; // player 1 or 2
 }
 
+const switchPlayer = (currentPlayer) => {
+  // switches between players
+  if (player === 1) {
+    return 2; 
+  } else {
+    return 1; 
+  }
+}
+
 const newGame = () => {
-  // initiate new players for game
-  let currentPlayer = startPlayer();
   // clear board for a new game
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
@@ -44,6 +51,10 @@ const tokenExists = (x, y) => {
   } else {
     return false;
   }
+}
+
+const columnFull = () => {
+  // returns true if column filled with tokens 
 }
 
 const wonGame = () => {
@@ -77,28 +88,24 @@ const wonGame = () => {
 }
 
 const playGame = () => {
-  // start game and play through
+  // start new game
   newGame();
-  console.log(`Player ${currentPlayer}, it\'s your turn.`);
-  printBoard();
-  let positionX = prompt('Please enter an x coordinate to place your token');
-  let positionY = prompt('Please enter a y coordinate to place your token');
-  if (!tokenExists()) {
-    playToken(positionX, positionY, currentPlayer) 
+  // initiate new players for game
+  let currentPlayer = startPlayer();
+  while (!gameWon()) {
+    console.log(`Player ${player}, it\'s your turn.`);
+    printBoard();
+    let column = prompt('Please enter a column to place your token');
+    if (!columnFull()) {
+      playToken(column, currentPlayer) 
+    } else {
+      column = prompt('Please choose a column that\'s not full');
+      printBoard();
+      playToken();
+    }
+    switchPlayer(player);
   }
-  if (wonGame()) {
     console.log(`Player ${currentPlayer} won!`);
     newGame();
     playGame();
-  }
-  // switch players after each turn
-  if (currentPlayer === 1) {
-    currentPlayer = 2; 
-    token = 'O';
-  } else {
-    currentPlayer = 1; 
-    token = 'X';
-  }
-  // start new turn
-  playGame();
 }
