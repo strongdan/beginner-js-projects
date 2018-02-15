@@ -4,46 +4,72 @@ const	ships = { 'carrier' : 5,
                 'submarine' : 3, 
                 'destroyer' : 2 }
 
-let grid1 = [];
-let grid2 = [];
+let board1 =  [ [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '] ];
+let board2 =  [ [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '] ];
 
-let userTurn = 1; // users take turns => 1 = user1, 2 = user2
+let shipPositionsUser1 = {}; // tracks which squares have a ship on them
+let shipPositionsUser2 = {}; 
 
-let shipPositions = {}; // tracks which squares have a ship on them, and which user they belong to
-
-const setGrid = (user) => {
-  // creates space for ships based on user's preference, not more than 10 x 10 and not less than 5 x 5
-  let dimensions = prompt('Please enter the number of rows and columns between 5 and 10');
-  // updates and returns grid variable
-  if (user === 1) {
-    let newArr = [];
-    for (let i = 0; i < dimensions; i++) {
-      newArr.push();
-      grid1.push([ '' * dimensions ]); 
-    }
-    return grid1; 
+const userTurn = (previousUser) => {
+  // switches turns between 1 and 2 
+  if (previousUser === 1) {
+    return 2; 
   } else {
-    grid2.push([ '' * dimensions ]);
-    return grid2; 
+    return 1; 
   }
 }
 
-const showGrid = (user, grid) => {
-  // print grid with ships to console 
-  console.log(`${grid}user`);
+const resetBoard = () => {
+  // resets both user's board
+  board1.forEach(function(row) {
+    row.forEach(function(el) {
+      el = ' ';
+    });
+  });
+  board2.forEach(function(row) {
+    row.forEach(function(el) {
+      el = ' ';
+    });
+  });
+  shipPositionsUser1 = {};
+  shipPositionsUser2 = {};
 }
 
-const shipsRemaining = () => {
+const showBoard = (user) => {
+  // print grid with ships to console 
+  console.log(`${board}user`);
+}
+
+const shipsRemaining = (user) => {
   // list remaining ships and their length 
 }
 
-const placeShip = (ship, startNum, endNum, startAlpha, endAlpha) => {
+const placeShip = (user, ship, positionStart, positionEnd) => {
   // allows user to place five ships on board 
   // checks whether ship is already present and ensures ship doesn't extend off board
 }
 
-const fireShots = (x, y) => {
-  // allows user to select position on board to fire at 
+const fireShot = (position) => {
+  // allows user to select position on board to fire at (eg. A1) 
+  // updates board with Xs for hits, Os for misses
 }
 
 const hitOrNot = () => {
@@ -51,18 +77,42 @@ const hitOrNot = () => {
   // updates shipPositions object with Xs for hit ships
 }
 
-const sunkShip = () => {
+const sunkShip = (user) => {
   // checks whether entire ship has been destroyed and alerts user  
 }
 
 const gameWon = () => {
   // checks whether game has been won and prints winner
+  if (shipsRemaining(1) === 0) {
+    console.log(`${user2} won!`);
+    return true; 
+  } else if (shipsRemaining(2) === 0) {
+    console.log(`${user2} won!`);
+    return true;  
+  } else {
+    return false;
+  }
 }
 
 const playGame = () => {
-  // starts game play 
+  // starts new game 
+  resetBoard();
+  placeShip(1);
+  placeShip(2);
+  user = Math.floor(Math.random() * 2; // chooses a random user to start
+  console.log(`User ${user) + 1} starts!`);
+  while (!gameWon()) { 
+    showBoard(user);
+    fireShot(position);
+    hitOrNot(position);
+    console.log(sunkShip(user));
+    console.log(shipsRemaining(user));
+    user = userTurn(user);
+  }
+  gameWon();
 }
 
+playGame();
 
 
 
