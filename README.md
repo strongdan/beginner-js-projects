@@ -1,5 +1,5 @@
 # Beginner Programming Ideas
-## Project Ideas for Beginner to Intermediate Programmers
+## Project Ideas for Beginner JavaScript Programmers
 
 ### Simple projects with sample code provided in .js files
 - [ ] Hangman Game
