@@ -10,20 +10,11 @@ const newHangman =  [ [ '  -----------        ' ],
 const completedHangman = [ [ '  -----------        ' ],
                            [ '  |         |        ' ],
                            [ '  |         |        ' ],
-                           [ '  |         0        ' ],
+                           [ '  |         O        ' ],
                            [ '  |        /|\       ' ],
                            [ '  |         |        ' ],
                            [ '  |        / \       ' ],
                            [ '  |                  ' ] ];
-
-let playHangman =  [ [ '  -----------        ' ],
-                     [ '  |         |        ' ],
-                     [ '  |         |        ' ],
-                     [ '  |                  ' ],
-                     [ '  |                  ' ],
-                     [ '  |                  ' ],
-                     [ '  |                  ' ],
-                     [ '  |                  ' ] ];
 
 const hangmanWords = ['jazz', 
                       'buzz', 
@@ -55,60 +46,73 @@ const guessLetter = (word) => {
   return word.includes(letter);
 }
 
-const printHangman = () => {
+const printHangman = (hangmanArray) => {
   // print playHangman array
-  console.log(playHangman);
+  console.log(hangmanArray);
 }
 
-const printBlankWord = (word, guessLetter = '') => {
-  // print blanks for current word, filling in correctly guessed letters
+const printBlankWord = (word) => {
+  // print blanks for current word
   word = word.split('');
   for (let i = 0; i < word.length; i++) {
     word[i] = '_';  
   }
-  word = word.join(' ');
-  if (guessLetter()) {
-    // if letter is correct, fill in blanks 
-  }
+  return word.join('');
 }
 
 const addToHangman = () => {
-  // add new row to hangman 
+  // add new element to hangman 
 }
 
-const fillWord = () => {
-  // add correctly guessed letters to blanks
-  printWord();
+const fillWord = (word, guessLetter = '') => {
+  // add correctly guessed letter to blanks
+  let blankWord = printBlankWord(word);
+  if (guessLetter()) {
+    // if letter is correct, fill in blanks
+    word.split('').forEach(function(letter) {
+      if (!letter === guessLetter) {
+        letter = letter.replace('_');
+      }
+    });
+  }
+  word = word.join('');
+  printWord(word);
+  return word;
 }
 
 const wonGame = () => {
-  // checks if word is complete and hangman not complete
-  // returns true or false
+  // checks if word is complete
+  return (word.length === fillWord());
+  }    
 }
 
-const lostGame = () => {
-  // checks whether length of word is equal to the length of the guessed word 
+const lostGame = (playHangman) => {
+  // checks whether playHangman equal to completedHangman
+  return playHangman === completedHangman;
 }
 
 const playGame = () => {
   // starts game and plays through to end
-  playHangman = newHangman;
+  let playHangman = newHangman;
   let word = getNewWord();
   while (!wonGame()) {
-    printHangman();
+    printHangman(playHangman);
     printBlankWord(word);
     guessLetter(); // users get seven guesses
-    if (!checkLetter()) {
-      drawHangman();  
-      if (lostGame()) {
+    if (!guessLetter()) {  
+      if (lostGame(playHangman)) {
+        printHangman(playHangman);
         console.log('Sorry. You lost.');
         break;
       }     
     } else {
-      fillWord(); 
+      fillWord(word);
+      printHangman(playHangman);
     }
   }
+  printHangman(playHangman);
   console.log('You won!');
+  playGame()
 }
 
 playGame();
