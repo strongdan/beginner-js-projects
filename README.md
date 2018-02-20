@@ -2,45 +2,47 @@
 ## Project Ideas for Beginner JavaScript Programmers
 
 ### Simple projects with sample code provided in .js files
-- [ ] Hangman Game
-- [ ] Tic-tac-toe game
-- [ ] Mad Libs
+
+- [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [ ] Battleship Game
-- [ ] Pomodoro Clock
-- [X] Simple Calculator App
-- [ ] Simple Poker Game
-- [ ] Stock trading simulator: users pick a stock or mutual fund, to "buy" and watch its performance (recommend using [IEX API](https://iextrading.com/developer/docs/))
 - [ ] Bitcoin game: "buy" Bitcoin and watch its performance over time
-- [ ] Choose Your Own Adventure story game
+- [ ] Blackjack Game
+- [ ] Breakout Game (based on [MDN tutorial](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) - code available on [Github](https://github.com/end3r/Gamedev-Canvas-workshop))
+- [X] Calculator App
+- [ ] Digital Clock
 - [ ] Checkers Game
 - [ ] Chess Game
-- [ ] Simon Game
+- [ ] Choose Your Own Adventure story game
 - [ ] Connect Four Game
-- [ ] Scrabble Clone
-- [ ] Blackjack Game
-- [ ] Twitter Clone
-- [X] Rock-Paper-Scissors Game
+- [ ] Hangman Game
+- [ ] Mad Libs
 - [X] Magic Eight Ball
-- [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
-- [ ] Digital Clock
-- [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
-- [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
-- [ ] Breakout Game (based on [MDN tutorial](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) - code available on [Github](https://github.com/end3r/Gamedev-Canvas-workshop))
 - [ ] [Mario 3 Memory Game](https://github.com/strongdan/memory-game) (credit: [@taniarascia](https://github.com/taniarascia))
+- [ ] Minesweeper
+- [ ] Poker Game
+- [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
+- [X] Rock-Paper-Scissors Game
+- [ ] Pomodoro Clock
+- [ ] Scrabble Clone
+- [ ] Stock trading simulator: users pick a stock or mutual fund, to "buy" and watch its performance (recommend using [IEX API](https://iextrading.com/developer/docs/))
+- [ ] Simon Game
+- [ ] Tic-tac-toe game
+- [ ] Twitter Clone
+- [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 
 ### Object-oriented beginner JS projects
 - [ ] Bank account
-- [ ] OO Tic-Tac-Toe
 - [ ] OO Checkers
 - [ ] OO Chess
+- [ ] OO Tic-Tac-Toe
 
 ### Basic CRUD Apps Built Using JavaScript
+- [ ] Ecommerce Store
+- [ ] Hangman Game
+- [ ] Mad Libs app
+- [ ] Meme Generator
+- [ ] Movie Review Apps
+- [ ] Music Library
+- [ ] Note Taking App
 - [ ] To-do List
 - [ ] Twitter Clone
-- [ ] Ecommerce Store
-- [ ] Meme Generator
-- [ ] Hangman Game
-- [ ] Movie Review Apps
-- [ ] Note Taking App
-- [ ] Mad Libs app
-- [ ] Music Library
