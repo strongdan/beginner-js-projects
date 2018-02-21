@@ -45,3 +45,10 @@
 - [ ] Note Taking App
 - [ ] To-do List
 - [ ] Twitter Clone
+- [ ] Trello Clone - see Indrek Lasn's [example](https://github.com/wesharehoodies/simple-trello)
+- [ ] User admin dashboard - see Indrek Lasn's [example](https://github.com/wesharehoodies/laravel-5.4-crud-example)
+- [ ] Cryptocurrency tracker (native mobile app) - see Indrek Lasn's [post](https://medium.com/react-native-training/bitcoin-ripple-ethereum-price-checker-with-react-native-redux-e9d076037092)
+- [ ] Hackernews clone - use [HackerNews API](https://github.com/HackerNews/API)
+- [ ] Sortable drag and drop list
+- [ ] Messenger clone (native app)
+
