@@ -1,8 +1,7 @@
 # Beginner Programming Ideas
-## Project Ideas for Beginner JavaScript Programmers
+## Project Ideas for Beginning JavaScript Programmers with sample code provided in .js files
 
-### Simple projects with sample code provided in .js files
-
+### Simple Projects 
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [ ] Battleship Game
 - [ ] Bitcoin game: "buy" Bitcoin and watch its performance over time
@@ -18,7 +17,6 @@
 - [ ] Mad Libs
 - [X] Magic Eight Ball
 - [ ] [Mario 3 Memory Game](https://github.com/strongdan/memory-game) (credit: [@taniarascia](https://github.com/taniarascia))
-- [ ] Minesweeper
 - [ ] Poker Game
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
 - [X] Rock-Paper-Scissors Game
@@ -30,13 +28,14 @@
 - [ ] Twitter Clone
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 
-### Object-oriented beginner JS projects
+### Object-oriented Projects
 - [ ] Bank account
-- [ ] OO Checkers
-- [ ] OO Chess
-- [ ] OO Tic-Tac-Toe
+- [ ] Checkers
+- [ ] Chess
+- [ ] Minesweeper
+- [ ] Tic-Tac-Toe
 
-### Basic CRUD Apps Built Using JavaScript
+### Basic CRUD Projects
 - [ ] Ecommerce Store
 - [ ] Hangman Game
 - [ ] Mad Libs app
