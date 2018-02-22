@@ -117,4 +117,15 @@ playGame();
 
 
 
-module.exports = userTurn
+module.exports = {
+	userTurn,
+  resetBoard,
+  showBoard,
+  shipsRemaining,
+  placeShip,
+	fireShot,
+	hitOrNot,
+	sunkShip,
+	gameWon,
+	playGame
+}
