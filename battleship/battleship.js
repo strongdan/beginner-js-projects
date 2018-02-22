@@ -117,3 +117,4 @@ playGame();
 
 
 
+module.exports = userTurn
