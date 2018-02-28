@@ -27,6 +27,7 @@
 - [ ] Tic-tac-toe game
 - [ ] Twitter Clone
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
+- [ ] Today's Horoscope
 
 ### Object-oriented Projects
 - [ ] Bank account
