@@ -18,14 +18,8 @@ describe('resetBoard', function() {
   });
 });
 
-describe('showBoard', function() {
-  it('print grid with ships to console ', function() {
-  expect(showBoard(1)).toEqual();
-  });
-});
-
 describe('shipsRemaining', function() {
-  it('list remaining ships and their length', function() {
+  it('lists remaining ships and their length', function() {
   expect(shipsRemaining()).toEqual();
   });
 });
