@@ -1,4 +1,4 @@
-require('./battleship.js');
+require('./calculator.js');
 
 calculate
   
