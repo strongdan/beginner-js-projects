@@ -1,0 +1,2 @@
+require('./battleship.js');
+
