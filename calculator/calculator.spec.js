@@ -23,3 +23,9 @@ describe('divide', function() {
     expect(divide(10, 42)).toEqual(0.23809523809523808);
   });
 });
+
+describe('divide', function() {
+    it('divides two numbers', function() {
+    expect(divide(10, 0)).toEqual('You cannot divide by zero');
+  });
+});
