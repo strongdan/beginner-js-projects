@@ -50,3 +50,12 @@ const calculate = () => {
 }
 
 calculate();
+
+module.exports = {
+	calculate,
+  getUserInput,
+  add,
+  subtract,
+  multiply,
+	divide,
+}
