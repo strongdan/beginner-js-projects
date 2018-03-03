@@ -23,6 +23,10 @@ const getUserInput = () => {
   console.log('Welcome! You can add, subtract, multiply or divide...');  
   let num1 = prompt('Please enter your first number.');
   let operator = prompt('Please enter + for addition, - for subtraction, * for multiplication or / for division');
+  if (['+', '-', '*', '/'].indexOf(operator) < 0) {
+      console.log('Please enter a valid operator');
+      getUserInput();
+      }
   let num2 = prompt('Please enter your second number');
   return [num1, operator, num2];
 }
