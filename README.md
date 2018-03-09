@@ -5,7 +5,7 @@
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [ ] Battleship Game
 - [ ] Bitcoin game: "buy" Bitcoin and watch its performance over time
-- [ ] Bitcoin price notifier (a la [](https://realpython.com/blog/python/python-bitcoin-ifttt/))
+- [ ] Bitcoin price notifier (a la [Real Python's Python Project for Beginners: Bitcoin Price Notifications](https://realpython.com/blog/python/python-bitcoin-ifttt/))
 - [ ] Blackjack Game
 - [ ] Breakout Game (based on [MDN tutorial](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) - code available on [Github](https://github.com/end3r/Gamedev-Canvas-workshop))
 - [X] Calculator App
