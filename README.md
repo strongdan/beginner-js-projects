@@ -38,6 +38,7 @@
 - [ ] Tic-Tac-Toe
 
 ### Basic CRUD Projects
+- [ ] [Simple CRUD Database App](https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/) (credit [@taniarascia](https://github.com/taniarascia))
 - [ ] Ecommerce Store
 - [ ] Hangman Game
 - [ ] Mad Libs app
