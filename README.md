@@ -15,6 +15,7 @@
 - [ ] Choose Your Own Adventure story game
 - [ ] Connect Four Game
 - [ ] Hangman Game
+- [ ] [Lighthouse Labs](https://github.com/lighthouse-labs) [21-Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 - [ ] Mad Libs
 - [X] Magic Eight Ball
 - [ ] [Mario 3 Memory Game](https://github.com/strongdan/memory-game) (credit [@taniarascia](https://github.com/taniarascia))
