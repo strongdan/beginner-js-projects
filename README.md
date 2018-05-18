@@ -57,4 +57,4 @@
 - [ ] Messenger clone (native app)
 
 ### Projects Using Libraries
-- [ ] Snake Game Built with P5.js
+- [ ] [Snake Game Built with P5.js](http://danstrong.tech/beginner-js-projects/snakeGame/)
