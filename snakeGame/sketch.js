@@ -1,9 +1,15 @@
 let snake;
+let cols;
+let rows;
 const SCL = 20;
 
 function setUp(){
-  createCanvas(600, 600); 
+  createCanvas(600, 600);
+  cols = floor( width/SCL );
+  rows = floor( height/SCL );
+  pickFoodLocation();
   snake = new Snake;
+  frameRate(10);
 }
 
 function draw(){
