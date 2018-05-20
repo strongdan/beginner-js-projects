@@ -1,6 +1,7 @@
 let snake;
 let cols;
 let rows;
+let food;
 const SCL = 20;
 
 function setUp(){
@@ -12,8 +13,15 @@ function setUp(){
   frameRate(10);
 }
 
+function pickFoodLocation(){
+  food = createVector( floor(random(cols)), floor(random(rows) ));
+  food.mult( SCL );
+}
+
 function draw(){
   background(51);
+  fill( 255, 0, 0 );
+  rect( food.x, food.y, SCL, SCL );
   snake.show();
 }  
 
