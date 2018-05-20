@@ -22,6 +22,7 @@ function draw(){
   background(51);
   fill( 255, 0, 0 );
   rect( food.x, food.y, SCL, SCL );
+  snake.update();
   snake.show();
 }  
 
