@@ -5,7 +5,10 @@ class Snake {
     this.speedY = 0;
   }
   
-    moveDir(){
+    moveDir(xDir, yDir){
+      this.xSpeed = xDir * SCL;
+      this.ySpeed = yDir * SCL;
+      
     }
     
     eatsFood(){ 
