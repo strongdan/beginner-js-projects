@@ -20,6 +20,9 @@ function pickFoodLocation(){
 
 function draw(){
   background(51);
+  if (eatsFood( food )){
+    pickFoodLocation();     
+  }
   fill( 255, 0, 0 );
   rect( food.x, food.y, SCL, SCL );
   snake.update();
