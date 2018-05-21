@@ -11,7 +11,13 @@ class Snake {
       
     }
     
-    eatsFood(){ 
+    eatsFood(foodPos){ 
+      var d = dist(this.pos.x, this.pos.y, foodPos.x, foodPos.y);
+      if (d < 1) {
+      return true;
+      } else {
+      return false;
+      }
     }
 
     losesTail(){
