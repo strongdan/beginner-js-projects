@@ -27,6 +27,11 @@ class Snake {
     }
 
     update(){
+      if (this.total === this.tail.length) {
+        for (var i = 0; i < this.tail.length - 1; i++) {
+          this.tail[ i ] = this.tail[ i + 1 ];
+        }
+      }
       const tempX = this.pos.x + this.xSpeed;
       const tempY = this.pos.y + this.ySpeed;
       this.pos.x = constrain(tempX, 0, width - scl);
@@ -39,6 +44,9 @@ class Snake {
     show(){
       fill(255);
       rect(this.pos.x, this.pos.y, SCL, SCL);
+      for (var i = 0; i < this.tail.length; i++) {
+        rect( this.tail[i].x, this.tail[i].y, this.size, this.size );
+      }
     }
   
 }
