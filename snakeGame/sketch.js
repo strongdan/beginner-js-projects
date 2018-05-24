@@ -27,6 +27,7 @@ function draw(){
   rect( food.x, food.y, SCL, SCL );
   snake.update();
   snake.show();
+  snake.losesTail();
 }  
 
 function keyPressed(){
