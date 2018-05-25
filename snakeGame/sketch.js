@@ -2,6 +2,7 @@ let snake;
 let cols;
 let rows;
 let food;
+let lostTail = false;
 const SCL = 20;
 
 function setUp(){
@@ -27,7 +28,16 @@ function draw(){
   rect( food.x, food.y, SCL, SCL );
   snake.update();
   snake.show();
-  snake.losesTail();
+  
+  textSize(32);
+  text( snake.total, 10, 30 );
+  if ( snake.losesTail() ) {
+    lostTail = true;
+  }
+  
+  if (snake.total === 0 && lostTail) {
+    text( “Start Over”, 10, 60 );
+  }
 }  
 
 function keyPressed(){
