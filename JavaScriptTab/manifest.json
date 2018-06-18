@@ -1,0 +1,13 @@
+{
+  "name": "JavaScript Tips Tab",
+  "manifest_version": 2,
+  "description": "Codecademy JavaScript tips when you open a new tab in Chrome",
+  "version": "0.0.0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
