@@ -1,0 +1,73 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
+  background-color: #204056;
+  color: white;
+  letter-spacing: 0.05rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40rem;
+  margin: 10vh auto;
+}
+
+.tip {
+  width: 100%;
+}
+
+.code {
+  font-family: monospace;
+  background-color: #336180;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.375rem;
+  border-radius: 0.15em;
+}
+
+.code-block {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  background-color: #336180;
+  padding: 0.5em 0.75em;
+  font-size: 1.15rem;
+  border-radius: 0.15rem;
+  display: block;
+  margin: 1rem 0;
+}
+
+.tip-number {
+  margin: auto;
+  margin-bottom: 2.5rem;
+  color: #CCCCCC;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.js-tip {
+  margin: auto;
+  line-height: 2rem;
+  font-weight: 300;
+  font-size: 1.375rem
+}
+
+.tip-button {
+  background-color: #34B3A0;
+  outline: none;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  margin: auto;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  color: white;
+}
+
+.disabled {
+  background-color: #D8D8D8 !important;
+  color: #888;
+  cursor: not-allowed !important;
+}
