@@ -15,6 +15,7 @@
 - [ ] Choose Your Own Adventure story game
 - [ ] Connect Four Game
 - [ ] Hangman Game
+- [ ] [Codecademy JavaScript Tips Tab](https://medium.com/@codecademy/javascript-tips-tab-4e9081b4132) 
 - [ ] [Lighthouse Labs](https://github.com/lighthouse-labs) [21-Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 - [ ] Mad Libs
 - [X] Magic Eight Ball
