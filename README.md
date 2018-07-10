@@ -19,7 +19,7 @@
 - [ ] [Guess the Number](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 - [ ] Hangman Game
 - [ ] [JavaScript Tips Tab](https://medium.com/@codecademy/javascript-tips-tab-4e9081b4132) (Credit @Codecademy)
-- [ ] [Lighthouse Labs](https://github.com/lighthouse-labs) [21-Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+- [X] [Lighthouse Labs](https://github.com/lighthouse-labs) [21-Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 - [ ] [Mad Libs Generator](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 - [X] Magic Eight Ball
 - [ ] [Mario 3 Memory Game](https://github.com/strongdan/memory-game) (credit [@taniarascia](https://github.com/taniarascia))
