@@ -2,6 +2,7 @@
 ## Project Ideas for Beginning JavaScript Programmers with sample code provided in .js files
 
 ### Simple Projects 
+- [ ] [Adventure Game](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 - [X] [Analog Clock](https://github.com/strongdan/js-analog-clock/)
 - [ ] Battleship Game
 - [ ] Bitcoin game: "buy" Bitcoin and watch its performance over time
@@ -14,10 +15,12 @@
 - [ ] Chess Game
 - [ ] Choose Your Own Adventure story game
 - [ ] Connect Four Game
+- [ ] [Dice Rolling Simulator](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
+- [ ] [Guess the Number](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 - [ ] Hangman Game
 - [ ] [JavaScript Tips Tab](https://medium.com/@codecademy/javascript-tips-tab-4e9081b4132) (Credit @Codecademy)
 - [ ] [Lighthouse Labs](https://github.com/lighthouse-labs) [21-Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
-- [ ] Mad Libs
+- [ ] [Mad Libs Generator](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 - [X] Magic Eight Ball
 - [ ] [Mario 3 Memory Game](https://github.com/strongdan/memory-game) (credit [@taniarascia](https://github.com/taniarascia))
 - [ ] Poker Game
@@ -59,3 +62,13 @@
 
 ### Projects Using Libraries
 - [ ] [Snake Game Built with P5.js](http://danstrong.tech/beginner-js-projects/snakeGame/)
+- [ ] [React QuizBuilder](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React MusicPlayer](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React MemeGenerator](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React InstagramRatio](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React TweetDeck](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React GoofyYelp](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React EventFinder](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React CustomForum](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React MyMedium](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React YoutubeDirect](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
