@@ -40,7 +40,6 @@
 - [ ] Checkers
 - [ ] Chess
 - [ ] Minesweeper
-- [ ] [MVC Todo App](https://www.taniarascia.com/javascript-mvc-todo-app/) (credit [@taniarascia](https://github.com/taniarascia))
 - [ ] Tic-Tac-Toe
 
 ### Basic CRUD Projects
@@ -52,7 +51,7 @@
 - [ ] Movie Review Apps
 - [ ] Music Library
 - [ ] Note Taking App
-- [ ] To-do List
+- [ ] [MVC Todo App](https://www.taniarascia.com/javascript-mvc-todo-app/) (credit [@taniarascia](https://github.com/taniarascia))
 - [ ] Twitter Clone
 - [ ] Trello Clone - see Indrek Lasn's [example](https://github.com/wesharehoodies/simple-trello)
 - [ ] User admin dashboard - see Indrek Lasn's [example](https://github.com/wesharehoodies/laravel-5.4-crud-example)
