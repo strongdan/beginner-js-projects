@@ -34,6 +34,7 @@
 - [ ] Twitter Clone
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 - [ ] Today's Horoscope
+- [ ] [MVC Todo App](https://www.taniarascia.com/javascript-mvc-todo-app/)
 
 ### Object-oriented Projects
 - [ ] Bank account
