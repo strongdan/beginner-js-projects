@@ -34,13 +34,13 @@
 - [ ] Twitter Clone
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 - [ ] Today's Horoscope
-- [ ] [MVC Todo App](https://www.taniarascia.com/javascript-mvc-todo-app/) (credit [@taniarascia](https://github.com/taniarascia))
 
 ### Object-oriented Projects
 - [ ] Bank account
 - [ ] Checkers
 - [ ] Chess
 - [ ] Minesweeper
+- [ ] [MVC Todo App](https://www.taniarascia.com/javascript-mvc-todo-app/) (credit [@taniarascia](https://github.com/taniarascia))
 - [ ] Tic-Tac-Toe
 
 ### Basic CRUD Projects
