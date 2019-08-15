@@ -71,4 +71,5 @@
 - [ ] [React EventFinder](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
 - [ ] [React CustomForum](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
 - [ ] [React MyMedium](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
+- [ ] [React Tetris](https://www.freecodecamp.org/news/react-hooks-tetris-game/)
 - [ ] [React YoutubeDirect](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831)
