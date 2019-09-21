@@ -10,7 +10,9 @@
 - [ ] Blackjack Game
 - [ ] Breakout Game (based on [MDN tutorial](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) - code available on [Github](https://github.com/end3r/Gamedev-Canvas-workshop))
 - [X] Calculator App
+- [ ] Custom Welcome Messages
 - [ ] Digital Clock
+- [ ] Dynamic Typing Test
 - [ ] Checkers Game
 - [ ] Chess Game
 - [ ] Choose Your Own Adventure story game
@@ -26,11 +28,13 @@
 - [ ] Poker Game
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
 - [X] Rock-Paper-Scissors Game
+- [ ] Play Audio Webpage
 - [ ] Pomodoro Clock
 - [ ] Scrabble Clone
 - [ ] Stock trading simulator: users pick a stock or mutual fund, to "buy" and watch its performance (recommend using [IEX API](https://iextrading.com/developer/docs/) - can use [Todd Schneider's stock page](https://github.com/toddwschneider/stocks) as a reference)
 - [ ] Simon Game
 - [ ] Tic-tac-toe game
+- [ ] Tip Calculator
 - [ ] Twitter Clone
 - [X] [Typing Speed Test](https://github.com/strongdan/js-typing-speed-test/)
 - [ ] Today's Horoscope
