@@ -25,6 +25,7 @@
 - [ ] [Mad Libs Generator](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 - [X] Magic Eight Ball
 - [ ] [Mario 3 Memory Game](https://github.com/strongdan/memory-game) (credit [@taniarascia](https://github.com/taniarascia))
+- [ ] Piano Keyboard (see [Joe Liang's walkthrough](https://www.freecodecamp.org/news/javascript-piano-keyboard/))
 - [ ] Poker Game
 - [X] [Random Quote Generator](https://github.com/strongdan/freeCodeCamp-random-quote-generator)
 - [X] Rock-Paper-Scissors Game
