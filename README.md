@@ -31,6 +31,7 @@
 - [X] Rock-Paper-Scissors Game
 - [ ] Play Audio Webpage
 - [ ] Pomodoro Clock
+- [ ] digital children game
 - [ ] Scrabble Clone
 - [ ] Stock trading simulator: users pick a stock or mutual fund, to "buy" and watch its performance (recommend using [IEX API](https://iextrading.com/developer/docs/) - can use [Todd Schneider's stock page](https://github.com/toddwschneider/stocks) as a reference)
 - [ ] Simon Game
